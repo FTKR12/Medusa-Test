@@ -1,9 +1,9 @@
-CUDA_VISIBLE_DEVICES=1 torchrun \
+CUDA_VISIBLE_DEVICES=0 torchrun \
     --nproc_per_node=1 Medusa/medusa/train/train_legacy.py \
     --model_name_or_path elyza/ELYZA-japanese-Llama-2-7b \
     --data_path ShareGPT_Vicuna_unfiltered/ShareGPT_V4.3_unfiltered_cleaned_split.json \
-    --fp16 True \
-    --output_dir weight_medusaheads \
+    --bf16 True \
+    --output_dir test \
     --num_train_epochs 1 \
     --per_device_train_batch_size 1 \
     --per_device_eval_batch_size 1 \
