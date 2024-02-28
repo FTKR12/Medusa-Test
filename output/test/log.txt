@@ -1,0 +1,15 @@
+2024-02-28 13:24:37,842 Mdeusa Test INFO: Namespace(name='test'
+ use_medusa=True
+ output_dir='output/test'
+ prompt_txt=''
+ prompt_path='prompt.txt'
+ model_path='weight_medusaheads_medusa_mlp_ELYZA-japanese-Llama-2-7b_medusa_3_lr_0.001_layers_1'
+ device='cuda'
+ seed=123
+ num_out_tokens=128)
+2024-02-28 13:25:06,646 Mdeusa Test INFO: 
++------------------------------------------------------------------------------------+------------------+--------------------+-------------------+-------------------+
+|                                     model_name                                     | len_input_tokens |   inference_time   | len_output_tokens |     throughput    |
++------------------------------------------------------------------------------------+------------------+--------------------+-------------------+-------------------+
+| weight_medusaheads_medusa_mlp_ELYZA-japanese-Llama-2-7b_medusa_3_lr_0.001_layers_1 |        16        | 2.3993020057678223 |        128        | 53.34884882865655 |
++------------------------------------------------------------------------------------+------------------+--------------------+-------------------+-------------------+
